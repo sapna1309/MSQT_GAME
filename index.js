@@ -14,7 +14,7 @@ const startGame=()=>{
  let j = Math.floor(Math.random()*90)+1;
  mosquito.style.left = i+"%";
  mosquito.style.top = j+"%";
-},800);
+},700);
 
 setTimeout(()=>{
     clearTimeout(id);
