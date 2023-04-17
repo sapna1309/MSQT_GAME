@@ -23,7 +23,7 @@ const startGame=()=>{
  cracker.style.left = i+"%";
  cracker.style.top = j+"%";
 
-},1700);
+},700);
 
 setTimeout(()=>{
     clearTimeout(id);
