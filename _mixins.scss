@@ -1,0 +1,6 @@
+@mixin basicstyle($height,$border,$bgColor){
+    border: $border;
+    height: $height;
+    width: 100vw;
+    background-color: $bgColor;  
+}

@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game-status {
+  position: absolute;
+  top: 41vh;
+  left: 38vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
+.playground {
+  border: 0px solid green;
+  height: 92vh;
+  width: 100vw;
+  background-color: rgb(39, 205, 39);
+}
+.playground .mosquito-img {
+  width: 5%;
+  position: relative;
+  top: 5px;
+}
+
+.controls {
+  border: 0px solid red;
+  height: 50px;
+  width: 100vw;
+  background-color: rgb(253, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.controls-start-btn {
+  padding: 5px 10px;
+  font-size: 18px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+.controls-start-btn:hover {
+  font-weight: bold;
+  color: darkcyan;
+  background-color: rgb(248, 163, 163);
+  font-size: 20px;
+}
+
+@media screen and (min-width: 320px) {
+  .game-status {
+    position: absolute;
+    top: 41vh;
+    left: 18vw;
+    font-size: 30px;
+  }
+  .playground .mosquito-img {
+    width: 10%;
+    position: relative;
+    top: 5px;
+  }
+}
+@media screen and (min-width: 760px) {
+  .game-status {
+    position: absolute;
+    top: 41vh;
+    left: 38vw;
+    font-size: 50px;
+  }
+  .playground .mosquito-img {
+    width: 5%;
+    position: relative;
+    top: 5px;
+  }
+}/*# sourceMappingURL=index.css.map */

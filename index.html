@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <title>HIT MOSQUITO GAME</title>
-</head>
-<body>
-    
-</body>
-<script src="./index.js"></script>
+  </head>
+  <body>
+    <h1 class="game-status"></h1>
+    <div class="playground">
+      <img
+        class="mosquito-img"
+        src="./images/mosquito-game.png"
+        alt="mosquito"
+        onclick="hitMosquito()"
+      />
+    </div>
+    <div class="controls">
+      <h1>Total Score : <span class="total">0</span></h1>
+
+      <button class="controls-start-btn" onclick="startGame()">
+        Start Game
+      </button>
+    </div>
+  </body>
+  <script src="./index.js"></script>
 </html>
