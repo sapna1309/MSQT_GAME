@@ -2,22 +2,21 @@ let mosquito = document.querySelector(".mosquito-img");
 let gameSatus = document.querySelector(".game-status");
 let myAudio = document.getElementById("myAudio");
 let cracker = document.querySelector(".cracker");
+let startBtn = document.querySelector(".controls-start-btn");
 let isGameStarted=false;
 let hitCount=0;
-
-let i;
-let j;
 
 const startGame=()=>{    
  isGameStarted=true;
  hitCount=0;
+ startBtn.disabled=true;
  document.querySelector(".total").innerText=hitCount
  gameSatus.innerText="GAME STARTED 🎉";
  let id=setInterval(()=>{
  gameSatus.innerText="";
  cracker.style.display="none"
-  i = Math.floor(Math.random()*90)+1;
-  j = Math.floor(Math.random()*90)+1;
+ let i = Math.floor(Math.random()*89)+1;
+ let j = Math.floor(Math.random()*89)+1;
  mosquito.style.left = i+"%";
  mosquito.style.top = j+"%";
  cracker.style.left = i+"%";
@@ -28,6 +27,7 @@ const startGame=()=>{
 setTimeout(()=>{
     clearTimeout(id);
     isGameStarted=false;
+    startBtn.disabled=false;
     gameSatus.innerText="GAME OVER 😯";
 },30000)
 }

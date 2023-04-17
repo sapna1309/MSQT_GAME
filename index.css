@@ -71,10 +71,10 @@
     width: 15%;
   }
   .controls .total-count {
-    font-size: 25px;
+    font-size: 20px;
   }
   .controls .total {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 760px) {
@@ -91,5 +91,11 @@
   }
   .playground .cracker {
     width: 5%;
+  }
+  .controls .total-count {
+    font-size: 30px;
+  }
+  .controls .total {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=index.css.map */

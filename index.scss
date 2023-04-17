@@ -76,10 +76,10 @@
     }
     .controls{
       .total-count{
-        font-size: 25px;
+        font-size: 20px;
       }
       .total{
-        font-size: 25px;
+        font-size: 20px;
       }
     }
 }
@@ -101,6 +101,15 @@
           .cracker{
             width: 5%;
           }
+    }
+
+    .controls{
+      .total-count{
+        font-size: 30px;
+      }
+      .total{
+        font-size: 30px;
+      }
     }
     
 }
