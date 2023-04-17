@@ -15,7 +15,7 @@
 
 .playground {
   border: 0px solid green;
-  height: 92vh;
+  height: 93vh;
   width: 100vw;
   background-color: rgb(39, 205, 39);
 }
@@ -24,10 +24,16 @@
   position: relative;
   top: 5px;
 }
+.playground .cracker {
+  position: relative;
+  top: 1px;
+  margin-bottom: -10px;
+  display: none;
+}
 
 .controls {
   border: 0px solid red;
-  height: 50px;
+  height: 7vh;
   width: 100vw;
   background-color: rgb(253, 235, 235);
   display: flex;
@@ -61,6 +67,15 @@
     position: relative;
     top: 5px;
   }
+  .playground .cracker {
+    width: 15%;
+  }
+  .controls .total-count {
+    font-size: 25px;
+  }
+  .controls .total {
+    font-size: 25px;
+  }
 }
 @media screen and (min-width: 760px) {
   .game-status {
@@ -73,5 +88,8 @@
     width: 5%;
     position: relative;
     top: 5px;
+  }
+  .playground .cracker {
+    width: 5%;
   }
 }/*# sourceMappingURL=index.css.map */

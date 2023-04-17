@@ -17,17 +17,24 @@
 }
 
 .playground {
-  @include basicstyle(92vh, $border-playground, $bg-color-playground);
+  @include basicstyle(93vh, $border-playground, $bg-color-playground);
 
   .mosquito-img {
     width: 5%;
     position: relative;
     top: 5px;
   }
+
+  .cracker{
+    position: relative;
+    top: 1px;
+    margin-bottom: -10px;
+    display: none;
+  }
 }
 
 .controls {
-  @include basicstyle(50px, $border-controls, $bg-color-controls);
+  @include basicstyle(7vh, $border-controls, $bg-color-controls);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,6 +69,18 @@
             position: relative;
             top: 5px;
           }
+
+          .cracker{
+            width: 15%;
+          }
+    }
+    .controls{
+      .total-count{
+        font-size: 25px;
+      }
+      .total{
+        font-size: 25px;
+      }
     }
 }
 
@@ -78,6 +97,11 @@
             position: relative;
             top: 5px;
           }
+
+          .cracker{
+            width: 5%;
+          }
     }
+    
 }
 
